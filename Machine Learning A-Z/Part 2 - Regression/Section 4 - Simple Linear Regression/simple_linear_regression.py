@@ -1,8 +1,8 @@
 # Simple Linear Regression
 
 # Importing the libraries
-import matplotlib.pyplot as plt
 import pandas as pd
+import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
 
@@ -36,3 +36,5 @@ plt.title('Salary vs Experience (Test set)')
 plt.xlabel('Years of Experience')
 plt.ylabel('Salary')
 plt.show()
+
+print(regressor.predict([[12]]))
