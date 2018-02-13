@@ -32,6 +32,7 @@ y_pred = classifier.predict(X_test)
 
 # Making the Confusion Matrix
 cm = confusion_matrix(y_test, y_pred)
+print('Confusion Matrix: \n', cm)
 
 # Visualising the Training set results
 X_set, y_set = X_train, y_train
